@@ -1,27 +1,23 @@
- 
-
-
-# Digital-Clock
+# Digital Clock
 
 **A Beautiful Flip Clock Animation in JavaScript**
 
 ## Overview
-This project is a simple browser application that displays a beautiful flip clock animation. The clock is built entirely using JavaScript and can be run by opening the `index.html` file directly or by using FastAPI to run the `app.py` file.
+This repository hosts a simple yet elegant browser application that displays a beautiful flip clock animation. The entire application is built using JavaScript, showcasing the versatility and power of the language. The project can be further enhanced by incorporating features like a timer and stopwatch, making it a more comprehensive time-keeping tool.
 
 ---
 
 ## Features
-- **Flip Clock Animation**: A visually appealing flip clock animation.
-- **JavaScript-Based**: Built entirely using JavaScript for a seamless and efficient experience.
-- **Easy Installation**: Includes a `requirements.txt` file for easy installation of dependencies.
-- **Flexible Runtime**: Can be run by opening `index.html` directly or using FastAPI to run `app.py`.
+- **Flip Clock Animation**: A visually appealing flip clock effect that updates in real-time.
+- **JavaScript-Based**: Built entirely with JavaScript, demonstrating its capability for creating engaging browser applications.
+- **Extensibility**: Offers potential for adding more features such as timers and stopwatches, enhancing its functionality.
 
 ---
 
 ## Technology Stack
-- **Programming Language**: JavaScript
-- **Runtime Environment**: Browser or FastAPI
-- **Dependencies**: Listed in `requirements.txt`
+- **Frontend**: JavaScript
+- **Runtime Environment**: Browser
+- **Optional Backend**: FastAPI (for running the app.py file)
 
 ---
 
@@ -35,15 +31,22 @@ This project is a simple browser application that displays a beautiful flip cloc
    ```bash
    cd Digital-Clock
    ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application using FastAPI (optional):
-   ```bash
-   uvicorn app:app --reload
-   ```
-5. Alternatively, open `index.html` in a browser to run the application.
+3. To run directly in the browser, open `index.html`.
+
+4. Alternatively, for a FastAPI setup:
+   - Create and activate a virtual environment:
+     ```bash
+     python -m venv venv
+     source venv/bin/activate   # On Windows: venv\Scripts\activate
+     ```
+   - Install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Run the FastAPI application:
+     ```bash
+     uvicorn app:app --reload
+     ```
 
 ---
 
